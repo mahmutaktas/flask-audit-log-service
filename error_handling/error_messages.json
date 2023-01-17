@@ -1,0 +1,68 @@
+{   
+    "COMMON": {
+        "NOT_AUTHORIZED_FOR_ACTION": {
+            "code": 10001,
+            "text": "You are not authorized for this action."
+        },
+        "UNEXPECTED_ERROR_OCCURED": {
+            "code": 10002,
+            "text": "An unexpected error occured."
+        },
+        "TOKEN_NOT_FOUND": {
+            "code": 10003,
+            "text": "Token not found."
+        },
+        "INVALID_TOKEN": {
+            "code": 10004,
+            "text": "Invalid token."
+        },
+
+        "INVALID_REFRESH_TOKEN": {
+            "code": 10005,
+            "text": "Invalid refresh token."
+        },
+        "INVALID_OR_EXPIRED_TOKEN": {
+            "code": 10006,
+            "text": "Invalid or expired token."
+        }
+    },
+    "AUTH": {
+        "LOGIN_FAILED": {
+            "code": 11001,
+            "text": "Login failed"
+        },
+        "USER_ALREADY_EXISTS": {
+            "code": 11002,
+            "text": "User already exists"
+        },
+        "USER_NOT_FOUND": {
+            "code": 11003,
+            "text": "User not found"
+        }
+    },
+    "EVENT_MANAGER": {
+        "EVENT_TYPE_ALREADY_EXISTS": {
+            "code": 12001,
+            "text": "Event type already exists"
+        },
+        "EVENT_TYPE_NOT_FOUND": {
+            "code": 12002,
+            "text": "Event type not found"
+        },
+        "EVENT_TYPE_FIELD_ALREADY_EXISTS": {
+            "code": 12003,
+            "text": "Event type field already exists"
+        },
+        "EVENT_TYPE_FIELD_NOT_FOUND": {
+            "code": 12004,
+            "text": "Event type field not found"
+        }
+    },
+    "EVENT_LOG": {
+        "EITHER_LESS_OR_MORE_FIELD": {
+            "code": 13001,
+            "text": "Either less or more field than expected"
+        }
+    }
+    
+}
